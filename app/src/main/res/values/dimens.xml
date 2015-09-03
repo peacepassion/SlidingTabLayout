@@ -1,5 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="restaurant_icon_size">46dp</dimen>
+    <dimen name="new_restaurant_icon_size">37dp</dimen>
+    <dimen name="activity_icon_size">23dp</dimen>
+    <dimen name="one_px">1px</dimen>
+    <dimen name="content_margin">8dp</dimen>
+    <dimen name="content_padding">13dp</dimen>
+    <dimen name="booking_order_padding">14dp</dimen>
+    <dimen name="cell_height">48dp</dimen>
+    <dimen name="submit_text_size">20sp</dimen>
+    <dimen name="third_icon_size">40dp</dimen>
+    <dimen name="corner_radius_zie">2dp</dimen>
+    <dimen name="grid_horizontal_spacing">2dp</dimen>
+    <dimen name="grid_vertical_spacing">2dp</dimen>
+    <dimen name="navigation_menu_left_margin">-8dp</dimen>
+
 </resources>

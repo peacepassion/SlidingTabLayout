@@ -1,4 +1,4 @@
-package org.peace.gradleandroidtemplate.app;
+package org.example.peacepassion.library;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

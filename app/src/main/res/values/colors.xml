@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_bg">#eeeeec</color>
+    <color name="gray_bg_2">#f1f1f1</color>
+    <color name="gray_txt">#aaaaaa</color>
+    <color name="text_field_pressed">#ededed</color>
+    <color name="black">#ff000000</color>
+    <color name="black_transparent">#7f000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_transparent">#27ffffff</color>
+    <color name="white_disable">#4dffffff</color>
+    <color name="blue">#3190e8</color>
+    <color name="blue_splash">#1b9dff</color>
+    <color name="green_status_bar">#3D9A1C</color>
+    <color name="green_weixin_co_order">#4db232</color>
+    <color name="red">#d7584a</color>
+    <color name="red_dark">#a34238</color>
+    <color name="red_light">#cd423a</color>
+    <color name="blue_dark">#237FD3</color>
+    <color name="green_dark">#25a044</color>
+    <color name="green_light">#4dc060</color>
+    <color name="green_light2">#58d178</color>
+    <color name="grey_white">#d5d4d2</color>
+    <color name="grey_white_pressed">#cccccc</color>
+    <color name="grey">#616267</color>
+    <color name="grey_pressed">#525559</color>
+    <color name="red_for_envelopes">#d8584a</color>
+    <color name="orange">#ff6000</color>
+    <color name="color_3">#333333</color>
+    <color name="color_4">#444444</color>
+    <color name="color_6">#666666</color>
+    <color name="color_7">#777777</color>
+    <color name="color_8">#888888</color>
+    <color name="color_9">#999999</color>
+    <color name="color_9a">#9a9a9a</color>
+    <color name="color_b">#bbbbbb</color>
+    <color name="color_d2">#d2d2d2</color>
+    <color name="color_f7">#f7f7f7</color>
+    <color name="color_f5">#f5f5f5</color>
+    <color name="color_5">#555555</color>
+    <color name="color_e">#eeeeee</color>
+    <color name="color_ec">#ececec</color>
+    <color name="color_e9">#e9e9e9</color>
+    <color name="color_f2">#f2f2f2</color>
+    <color name="color_999">#999</color>
+    <color name="color_333">#333</color>
+    <color name="color_666">#666</color>
+    <color name="color_ccc">#ccc</color>
+    <color name="color_ddd">#ddd</color>
+    <color name="color_eee">#eee</color>
+
+    <color name="food_toolbar_start_color">#50000000</color>
+    <color name="food_toolbar_end_color">@color/blue</color>
+
+    <color name="home_bottom_tab_text_selected">#3190e8</color>
+    <color name="home_bottom_tab_text">#aaa</color>
+
+    <color name="color_mask">#99efeff4</color>
+    <color name="filter_color_mask">#4c000000</color>
+
+    <color name="color_hrb_promotion">#0750A0</color>
+    <color name="color_hrb_promotion_dark">#023770</color>
+    
+    <color name="cart_popup_head">#ececee</color>
+    <color name="cart_discount_des">#f0ffffff</color>
+
+</resources>

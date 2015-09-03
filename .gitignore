@@ -15,7 +15,7 @@
 
 # out directory
 out/
-
+target/
 
 
 # Built application files
