@@ -40,7 +40,7 @@ publishing {
     MyPublication(MavenPublication) {
       from components.java
       groupId 'org.peace'
-      artifactId 'slidetablayout'
+      artifactId 'slidingtablayout'
       version '0.0.1'
     }
   }
@@ -52,7 +52,7 @@ bintray {
   publications = ['MyPublication']
   pkg {
     repo = 'maven'
-    name = 'slidetablayout'
+    name = 'slidingtablayout'
     licenses = ['Apache-2.0']
     vcsUrl = 'https://github.com/bintray/gradle-bintray-plugin.git'
     version {

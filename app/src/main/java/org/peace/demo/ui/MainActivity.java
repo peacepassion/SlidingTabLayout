@@ -9,7 +9,7 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import org.peace.demo.R;
 import org.peacepassion.layout.DataHolder;
-import org.peacepassion.layout.WeixinTabLayout;
+import org.peacepassion.layout.SlidingTabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,8 +17,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    @InjectView(R.id.weixin_tab_layout)
-    WeixinTabLayout weixinTabLayout;
+    @InjectView(R.id.weixin_tab_layout) SlidingTabLayout slidingTabLayout;
     @InjectView(R.id.view_pager)
     ViewPager viewPager;
     Fragment[] fragments = {SampleFragment.newInstance(0), SampleFragment.newInstance(1), SampleFragment.newInstance(2), SampleFragment.newInstance(3)};
@@ -51,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             dataHolders.add(new DataHolder(getResources().getDrawable(R.drawable.unselected),
                 getResources().getDrawable(R.drawable.selected), "我", getResources().getColor(R.color.blue)));
         }
-        weixinTabLayout.setUpViewPager(viewPager, dataHolders);
+        slidingTabLayout.setUpViewPager(viewPager, dataHolders);
     }
 
 }

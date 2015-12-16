@@ -18,20 +18,20 @@ import java.util.List;
 /**
  * Created by peacepassion on 15/8/23.
  */
-public class WeixinTabLayout extends ViewGroup implements OnPageChangeListener {
+public class SlidingTabLayout extends ViewGroup implements OnPageChangeListener {
 
     private ViewPager viewPager;
     private List<UnitViewHolder> viewHolders = new ArrayList<>();
 
-    public WeixinTabLayout(Context context) {
+    public SlidingTabLayout(Context context) {
         super(context);
     }
 
-    public WeixinTabLayout(Context context, AttributeSet attrs) {
+    public SlidingTabLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public WeixinTabLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+    public SlidingTabLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

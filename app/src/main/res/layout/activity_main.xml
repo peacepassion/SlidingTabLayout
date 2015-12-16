@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <org.peacepassion.layout.WeixinTabLayout android:id="@+id/weixin_tab_layout"
+    <org.peacepassion.layout.SlidingTabLayout
+        android:id="@+id/weixin_tab_layout"
         android:layout_alignParentBottom="true"
         android:background="@drawable/weixin_bg"
         android:paddingTop="10dp"
