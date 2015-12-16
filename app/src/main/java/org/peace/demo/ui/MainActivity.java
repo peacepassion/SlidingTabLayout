@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             dataHolders.add(new DataHolder(getResources().getDrawable(R.drawable.unselected),
                 getResources().getDrawable(R.drawable.selected), "我", getResources().getColor(R.color.blue)));
         }
-        weixinTabLayout.setUpViewPager(viewPager, adapter, dataHolders);
+        weixinTabLayout.setUpViewPager(viewPager, dataHolders);
     }
 
 }

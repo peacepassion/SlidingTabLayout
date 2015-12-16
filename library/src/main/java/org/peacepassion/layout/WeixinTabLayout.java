@@ -35,15 +35,9 @@ public class WeixinTabLayout extends ViewGroup implements OnPageChangeListener {
         super(context, attrs, defStyleAttr);
     }
 
-    public void setUpViewPager(final ViewPager viewPager, final PagerAdapter adapter, List<DataHolder> dataHolders) {
+    public void setUpViewPager(final ViewPager viewPager, List<DataHolder> dataHolders) {
         this.viewPager = viewPager;
         viewPager.addOnPageChangeListener(this);
-        if (adapter.getCount() == 0) {
-            throw new IllegalStateException("adapter should has at least one item");
-        }
-        if (adapter.getCount() != dataHolders.size()) {
-            throw new IllegalStateException("adapter should has the same length as unit view holders");
-        }
         for (int i = 0; i < dataHolders.size(); ++i) {
             RelativeLayout v = (RelativeLayout) LayoutInflater.from(getContext()).inflate(R.layout.unit, this, false);
             final int j = i;
