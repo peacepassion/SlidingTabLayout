@@ -1,4 +1,4 @@
-#WeChatTabLayout
+#SlidingTabLayout
 仿微信底部导航栏的实现。  
 
 ### 效果
