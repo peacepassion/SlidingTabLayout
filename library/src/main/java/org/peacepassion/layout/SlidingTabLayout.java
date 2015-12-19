@@ -1,7 +1,6 @@
 package org.peacepassion.layout;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
@@ -11,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +18,6 @@ import java.util.List;
  */
 public class SlidingTabLayout extends ViewGroup implements OnPageChangeListener {
 
-    private ViewPager viewPager;
     private List<UnitViewHolder> viewHolders = new ArrayList<>();
 
     public SlidingTabLayout(Context context) {
@@ -36,7 +33,6 @@ public class SlidingTabLayout extends ViewGroup implements OnPageChangeListener 
     }
 
     public void setUpViewPager(final ViewPager viewPager, List<DataHolder> dataHolders) {
-        this.viewPager = viewPager;
         viewPager.addOnPageChangeListener(this);
         for (int i = 0; i < dataHolders.size(); ++i) {
             RelativeLayout v = (RelativeLayout) LayoutInflater.from(getContext()).inflate(R.layout.unit, this, false);
